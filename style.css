@@ -1,2 +1,38 @@
 body {
+  background: #efefef;
+}
+.container {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: #ddd 5px 5px;
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+p {
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  border-radius: 0%;
+  border: 1px solid #000;
+  min-height: 100px;
+}
+button {
+  background-color: #000;
+  color: #fff;
+  border: 0px solid #000;
+  padding: 10px;
+  box-sizing: border-box;
+
+
 }
